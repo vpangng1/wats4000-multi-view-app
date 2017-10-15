@@ -38,9 +38,12 @@ In order to successfully complete this project, you must fulfill these requireme
 ## Stretch Goals
 If you crave an extra challenge, please try these stretch goals:
 
+* Enhance the sign up form to collect additional info, different info, or to use different input types to collect the data
+* Enhance the validation to be more specific (e.g. verify no numbers in the name, or there is an `@` and a `.` in the email address, etc.)
+* Enhance error messages to be more specific (e.g. build a message that mentions which field is causing the problem)
 * Add a navigation element to the `src/App.vue` template, and be sure to use the `router-link-active` class to style the current page link
 * Add more pages of content to the site to practice creating new components from scratch and adding them to the routes Array
-* Provide more elegant feedback in the template to let the user know why their responses were not valid
+
 
 ## Vue.js Application Setup
 
