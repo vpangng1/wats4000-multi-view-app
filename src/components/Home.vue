@@ -59,6 +59,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.error {
+  border: 1px solid #aa0000;
+  padding: 1rem;
+  color: #aa0000;
+}
 h1, h2 {
   font-weight: normal;
 }
