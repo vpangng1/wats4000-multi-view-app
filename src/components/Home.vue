@@ -33,7 +33,7 @@
     </div>
     <div v-show="!showForm" class="success-message">
       <h1>Thank you for signing up!</h1>
-      <p>Please take our new member survey. <router-link to="Survey">Click here</router-link></p>
+      <p>Please take our new member survey. <router-link to="/Survey">Click here</router-link></p>
     </div>
   </div>
 </template>
