@@ -100,7 +100,7 @@ export default {
     validateForm: function () {
       if ((this.q1 != '') && (this.q2.length > 0) && (this.q3.length > 0) && (this.q4 != '') & (this.q5 != '')) {
       console.log('Form is valid.');
-      this.$router.push('/Secret');
+      this.$router.push('Secret');
       } else {
       console.log('Form is NOT valid.');
       this.showError = true;
